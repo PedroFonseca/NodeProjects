@@ -1,5 +1,7 @@
-var express = require('express');
-var app = new express();
+var express = require("express");
+var app = express();
+
+app.use(express.static('./.tmp'));
 app.get('/', function(req, res){
     res.render('./../app/index.ejs', {})
 });
