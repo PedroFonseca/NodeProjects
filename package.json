@@ -1,0 +1,23 @@
+{
+  "name": "nodetutorialapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroFonseca/NodeTutorialApp.git"
+  },
+  "author": "Pedro Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroFonseca/NodeTutorialApp/issues"
+  },
+  "homepage": "https://github.com/PedroFonseca/NodeTutorialApp#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
