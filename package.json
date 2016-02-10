@@ -17,14 +17,23 @@
   },
   "homepage": "https://github.com/PedroFonseca/NodeTutorialApp#readme",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "flux": "^2.1.1",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-eslint": "^1.1.1",
     "gulp-live-server": "0.0.29",
+    "gulp-open": "^1.0.0",
+    "history": "^2.0.0",
+    "jquery": "^2.2.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-router": "^1.0.3",
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0"
   }
