@@ -13,6 +13,7 @@ var config = {
     paths:{
         html: './src/*.html',
         js: 'src/**/*.js',
+        jsx: 'src/**/*.jsx',
         css: [
             'node_modules/bootstrap/dist/css/bootstrap.min.css',
             'node_modules/bootstrap/dist/css/bootstrap-theme.min.css'
@@ -66,7 +67,8 @@ gulp.task('lint', function(){
 
 gulp.task('watch', function(){
    gulp.watch(config.paths.html, ['html']);
-   gulp.watch(config.paths.js, ['js', 'lint']); 
+   gulp.watch(config.paths.js, ['js', 'lint']);
+   gulp.watch(config.paths.jsx, ['js']);  
 });
 
 gulp.task('default', ['html', 'js', 'css', 'open', 'watch']);
